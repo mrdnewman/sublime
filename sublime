@@ -19,3 +19,11 @@ after connect to server run this command on server:
 # rsub path_to_file/file.txt
 
 File opening auto in Sublime 3
+
+OTHER PLUGINS:
+--------------
+Sublime SFTP
+https://wbond.net/sublime_packages/sftp
+
+Sublime FTPSync
+https://github.com/NoxArt/SublimeText2-FTPSync
