@@ -1,3 +1,41 @@
+
+
+-------------------------------------------
+Setting Up Sublime Build_System on windows
+-------------------------------------------
+
+1.) Type Python in search
+2.) RT-CLK Python <Version #> --> Open File Location
+3.) Find Same FileName --> RT-CLK Properties - Copy "Target Line"
+4.) Open this file,  paste over C:\\ section below with "Target Line"
+5.) Open Sublime Text
+    -- Tools -> Build System -> New Build System
+    -- Paste lines below onto the Black Build System Screen
+6.) Now Save:
+    -- Python.sublime-build
+
+
+"cmd": ["C:\\Users\\miste\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe", "-u", "$file"],
+"file_regex": "^[ ]*file \"(...*?)\", line ([0-9]*)", 
+"selector": "source.python"
+
+
+Setting Up Vi:
+
+1.) Preferences -> Setting -> User
+
+{
+	"ignored_packages": []
+}
+    
+2.) Save file -- That's it. 
+VI should now work ...
+
+
+----------------------------
+OPEN REMOTE FILES IN SUBLIME
+----------------------------
+
 On server
 
 Install rsub:
